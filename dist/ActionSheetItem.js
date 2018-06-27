@@ -53,8 +53,8 @@ var defaultProps = {
   showSelectedIcon: true,
   onPress: function onPress() {},
   style: null,
-  textStyle: null
-  textComponent:null
+  textStyle: null,
+  textComponent: null
 };
 
 function ActionSheetItem(_ref) {
@@ -125,12 +125,12 @@ function ActionSheetItem(_ref) {
         },
         itemIcon,
         _react2.default.createElement(
-          _reactNative.Text,
+          _reactNative.View,
           {
             style: [styles.text, textStyle],
             __source: { fileName: _jsxFileName, lineNumber: 103 }
           },
-          text
+          textComponent
         )
       ),
 
